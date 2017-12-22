@@ -35,6 +35,10 @@ function productsByCategory(id){
     .catch((error) => {console.warn(error);})
 }
 
+function sum(a,b){
+  return a+b;
+}
+
 function productsData(id){
   return fetch(
     `https://decath-product-api.herokuapp.com/products/${id}`,
@@ -55,5 +59,6 @@ function productsData(id){
 module.exports={
   categoriesList : categoriesList,
   productsByCategory : productsByCategory,
-  productsData : productsData
+  productsData : productsData,
+  sum:sum
 }
