@@ -19,6 +19,7 @@
   "homepage": "https://github.com/FabGlo/EcommerceExo#readme",
   "dependencies": {
     "express": "^4.16.2",
+    "jest": "^22.0.4",
     "node-fetch": "^1.7.3",
     "nunjucks": "^3.0.1"
   }
